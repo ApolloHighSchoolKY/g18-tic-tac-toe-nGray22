@@ -14,7 +14,15 @@ public class Lab24d
 	{
 		Scanner file = new Scanner (new File("lab24d.dat"));
 
+		int x = file.nextInt();
+		file.nextLine();
+		
+		TicTacToe run = new TicTacToe(file.nextLine());
+		System.out.println(run.getWinner());
+	
 
+
+ 
 
 
 
